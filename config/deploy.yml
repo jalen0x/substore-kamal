@@ -7,7 +7,7 @@ image: jalen0x/substore
 # Deploy to these servers.
 servers:
   web:
-    - 120.26.229.237
+    - 18.191.155.156
   # job:
   #   hosts:
   #     - 120.26.229.237
@@ -59,9 +59,9 @@ aliases:
   logs: app logs -f
 
 # Use a different ssh user than root
-#
-# ssh:
-#   user: app
+
+ssh:
+  user: ubuntu
 
 # Use a persistent storage volume.
 volumes:
