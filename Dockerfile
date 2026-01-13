@@ -1,1 +1,1 @@
-FROM xream/sub-store:latest
+FROM xream/sub-store:http-meta
