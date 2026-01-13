@@ -51,6 +51,7 @@ env:
   secret:
     - SUB_STORE_FRONTEND_BACKEND_PATH
     - KAMAL_REGISTRY_PASSWORD
+    - SUB_STORE_PUSH_SERVICE
 
 # Aliases are triggered with "bin/kamal <alias>". You can overwrite arguments on invocation:
 # "bin/kamal app logs -r job" will tail logs from the first server in the job section.
