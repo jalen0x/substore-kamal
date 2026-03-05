@@ -65,7 +65,7 @@ aliases:
 # Use a different ssh user than root
 
 ssh:
-  user: ubuntu
+  user: jalen
 
 # Use a persistent storage volume.
 volumes:
